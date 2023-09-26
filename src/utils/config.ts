@@ -34,6 +34,10 @@ export const SERVICES: Readonly<Readonly<TranslateService>[]> = <const>[
   },
   {
     type: "sentence",
+    id: "custom",
+  },
+  {
+    type: "sentence",
     id: "youdaozhiyun",
     defaultSecret: "appid#appsecret#vocabid(optional)",
     secretValidator(secret: string) {

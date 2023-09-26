@@ -77,6 +77,9 @@ export class TranslationServices {
     import("./youdao").then(
       (e) => (this.youdao = new TranslateTaskRunner(e.default)),
     );
+    import("./custom").then(
+      (e) => (this.custom = new TranslateTaskRunner(e.default)),
+    );
     import("./youdaodict").then(
       (e) => (this.youdaodict = new TranslateTaskRunner(e.default)),
     );
